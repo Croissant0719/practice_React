@@ -1,5 +1,8 @@
 {
   "name": "practice_React",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
 }
