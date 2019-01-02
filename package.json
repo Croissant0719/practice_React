@@ -1,8 +1,11 @@
 {
   "name": "practice_React",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@rails/webpacker": "3.5"
+  },
   "devDependencies": {
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "2.11.2"
   }
 }
