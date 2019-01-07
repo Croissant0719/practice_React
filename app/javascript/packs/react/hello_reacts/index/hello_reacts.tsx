@@ -10,7 +10,7 @@ class HelloReact extends React.Component<Props, State> {
     super(props);
   }
   render() {
-    return <div>お名前: {this.props.name}</div>;
+    return <div className="name">名前: {this.props.name}</div>;
   }
 }
 
