@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import HelloReact from "./index/hello_reacts";
+import HelloReact from "./index/hello_react";
 import "./app.css";
 
 ReactDOM.render(
