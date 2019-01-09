@@ -9,7 +9,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "ts-loader": "5.3.3"
+    "ts-loader": "^3.5.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",

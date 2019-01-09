@@ -2183,7 +2183,7 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhanced-resolve@^3.4.0:
+enhanced-resolve@^3.0.0, enhanced-resolve@^3.4.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-3.4.1.tgz#0421e339fd71419b3da13d129b3979040230476e"
   integrity sha1-BCHjOf1xQZs9oT0Smzl5BAIwR24=
@@ -6551,13 +6551,13 @@ trim-right@^1.0.1:
   dependencies:
     glob "^7.1.2"
 
-ts-loader@5.3.3:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-5.3.3.tgz#8b4af042e773132d86b3c99ef0acf3b4d325f473"
-  integrity sha512-KwF1SplmOJepnoZ4eRIloH/zXL195F51skt7reEsS6jvDqzgc/YSbz9b8E07GxIUwLXdcD4ssrJu6v8CwaTafA==
+ts-loader@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-3.5.0.tgz#151d004dcddb4cf8e381a3bf9d6b74c2d957a9c0"
+  integrity sha512-JTia3kObhTk36wPFgy0RnkZReiusYx7Le9IhcUWRrCTcFcr6Dy1zGsFd3x8DG4gevlbN65knI8W50FfoykXcng==
   dependencies:
     chalk "^2.3.0"
-    enhanced-resolve "^4.0.0"
+    enhanced-resolve "^3.0.0"
     loader-utils "^1.0.2"
     micromatch "^3.1.4"
     semver "^5.0.1"
