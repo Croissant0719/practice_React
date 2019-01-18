@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import HelloReact from "./index/hello_react";
-import "./app.css";
+// import "./app.css";
 
 ReactDOM.render(
   <HelloReact name="Koji Igarashi" />,
