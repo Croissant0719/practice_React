@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-class TodoInput extends Component {
+class TodoInput extends React.Component {
   render() {
     return (
       <div>

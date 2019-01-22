@@ -1,7 +1,7 @@
 import * as React from 'react'
 import TodoItem from './TodoList/TodoItem'
 
-class TodoList extends Component {
+class TodoList extends React.Component {
   render() {
     //
     //

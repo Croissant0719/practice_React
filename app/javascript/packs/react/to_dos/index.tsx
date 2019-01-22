@@ -2,10 +2,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import ToDoInput from './index/TodoInput';
-import ToDoList from './index/TodoList';
+import TodoInput from './index/TodoInput';
+import TodoList from './index/TodoList';
 
-class App extends Component {
+class App extends React.Component {
   render () {
     // To Do
     const tasks = [
