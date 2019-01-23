@@ -6,18 +6,24 @@ import TodoInput from './index/TodoInput';
 import TodoList from './index/TodoList';
 
 class App extends React.Component {
-  render () {
-    // To Do
-    const tasks = [
-      { title: 'Todo 1st', id: 0 },
-      { title: 'Todo 2nd', id: 1 },
-    ];
+  constructor(props) {
+    super(props);
+    this.state = {
+      tasks: [
+        { title: 'default TODO',
+          id: 0,
+        },
+      ],
+      uniqueId: 1,
+    };
+  }
 
+  render () {
     return (
       <div>
         <h1>TODO App</h1>
         <TodoInput />
-        <TodoList tasks={tasks} />
+        <TodoList tasks={this.state.tasks} />
       </div>
     );
   }
