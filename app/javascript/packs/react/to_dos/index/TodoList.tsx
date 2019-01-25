@@ -1,10 +1,8 @@
-import * as React from 'react'
-import TodoItem from './TodoList/TodoItem'
+import * as React from 'react';
+import TodoItem from './TodoItem';
 
 class TodoList extends React.Component {
   render() {
-    //
-    // Tasksの実装
     const list = this.props.tasks.map(todo => {
       return <TodoItem {...todo} key={todo.id} />;
     });
