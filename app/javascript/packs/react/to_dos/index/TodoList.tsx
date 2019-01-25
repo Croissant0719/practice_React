@@ -1,7 +1,12 @@
 import * as React from 'react';
 import TodoItem from './TodoItem';
 
-class TodoList extends React.Component {
+interface Props {
+  tasks;
+}
+interface State {}
+
+class TodoList extends React.Component<Props, State> {
   render() {
     const list = this.props.tasks.map(todo => {
       return <TodoItem {...todo} key={todo.id} />;

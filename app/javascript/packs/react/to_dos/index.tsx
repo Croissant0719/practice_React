@@ -4,7 +4,13 @@ import * as ReactDOM from "react-dom";
 import TodoInput from './index/TodoInput';
 import TodoList from './index/TodoList';
 
-class App extends React.Component {
+interface Props {}
+interface State {
+  tasks;
+  uniqueId;
+}
+
+class App extends React.Component<Props, State> {
   constructor(props) {
     super(props);
     this.state = {
