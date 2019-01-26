@@ -34,4 +34,7 @@ class App extends React.Component<Props, State> {
   }
 }
 
-export default App;
+ReactDOM.render(
+  <App />,
+  document.body.appendChild(document.createElement("div"))
+);
