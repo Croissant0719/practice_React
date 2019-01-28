@@ -23,6 +23,23 @@ class App extends React.Component<Props, State> {
     };
   }
 
+  addTodo(title) {
+    const {
+      tasks,
+      uniqueId,
+    } = this.state;
+
+    tasks.push({
+      title,
+      id: uniqueId,
+    });
+
+    this.setState({
+      tasks,
+      uniqueId: uniqueId + 1,
+    });
+  }
+
   render () {
     return (
       <div>
