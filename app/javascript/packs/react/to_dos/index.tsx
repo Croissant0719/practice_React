@@ -42,9 +42,9 @@ class App extends React.Component<Props, State> {
 
   render () {
     return (
-      <div>
+      <div className="App">
         <h1>TODO App</h1>
-        <TodoInput />
+        <TodoInput addTodo={this.addTodo} />
         <TodoList tasks={this.state.tasks} />
       </div>
     );
