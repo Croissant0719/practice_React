@@ -21,9 +21,11 @@ class App extends React.Component<Props, State> {
       ],
       uniqueId: 1,
     };
+    this.addTodo = this.addTodo.bind(this);
   }
 
-  addTodo(title) {
+  // addTodo(title) {
+  addTodo = (title) => {
     const {
       tasks,
       uniqueId,
