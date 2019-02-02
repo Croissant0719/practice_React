@@ -5,7 +5,8 @@ class TodoInput extends React.Component {
     super(props);
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick() {
+  handleClick(e) {
+    e.preventDefault();
     this.props.addTodo('新規Todo');
   }
 
