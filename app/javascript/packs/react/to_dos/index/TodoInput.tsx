@@ -14,7 +14,7 @@ class TodoInput extends React.Component {
     return (
       <div>
         <input placeholder="新規ToDoを入力してください" />
-        <button onClick={this.handleClick} >登録</button>
+        <a href="/register" onClick={this.handleClick} >登録</a>
       </div>
     );
   }
