@@ -1,11 +1,21 @@
 import * as React from 'react';
 
-class TodoInput extends React.Component {
+interface Props {
+  addTodo;
+}
+
+interface State {
+  inputValue;
+}
+
+export default class TodoInput extends React.Component<Props, State> {
   constructor(props) {
     super(props);
+
     this.state = {
-      inputValue: '',
+      inputValue: "",
     };
+
     this.handleChange = this.handleChange.bind(this);
     this.handleClick  = this.handleClick.bind(this);
   }
@@ -14,10 +24,12 @@ class TodoInput extends React.Component {
       inputValue: e.target.value,
     });
   }
+
   handleClick() {
     const inputValue = this.state.inputValue;
     this.props.addTodo(inputValue);
   }
+
   render() {
     return (
       <div className="TodoInput">
@@ -29,5 +41,3 @@ class TodoInput extends React.Component {
     );
   }
 }
-
-export default TodoInput;
